@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-border-drawing {
+  @apply text-fuchsia-300 mr-4 p-2 px-4 border-fuchsia-300 shadow-[inset_0_0_0_2px_#F0ABFC] relative transition-colors duration-75;
+}
+
+.btn-border-drawing:hover {
+  color: rgb(45 212 191); /* Change text color on hover */
+}
+
+.btn-border-drawing::before,
+.btn-border-drawing::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0; /* Example placement, adjust based on your needs */
+  left: 0; /* Example placement, adjust based on your needs */
+  transition: width 0.25s, height 0.25s; /* Example transitions, adjust based on your needs */
+}
+
+.btn-border-drawing:hover::before,
+.btn-border-drawing:hover::after {
+  width: 100%; /* Example hover effect */
+  height: 100%; /* Example hover effect */
+  border-width: 2px; /* Example border width */
+  border-color: rgb(45 212 191); /* Example border color */
+}
