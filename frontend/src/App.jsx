@@ -17,10 +17,10 @@ function App() {
   return (
     <>
       <div className="text-white">
-        <p>Hello My Name is</p>
-        <h1>Shawn He</h1>
+        <p className=" text-fuchsia-300">Hello My Name is</p>
+        <h1 className="font-colfax text-5xl">Shawn He</h1>
         <p>I Deliver Value For The Web</p>
-        <p>I’m a Coder and Founder for Black Compass Digital</p>
+        <p>Founder for Black Compass Digital and Coder.  I develop websites and help brands make scale to the millions</p>
       </div>
     </>
   )

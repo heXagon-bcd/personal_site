@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         spaceMono: ["'Space Mono'", "monospace"], // Adding custom font family
+        colfax: ['"colfax-web"', "sans-serif"],
       },
     },
   },
