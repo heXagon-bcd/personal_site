@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Navbar } from '../components/Navbar'
+import { Navbar } from '../src/components/Navbar'
 import App from '../src/App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

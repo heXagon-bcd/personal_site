@@ -14,6 +14,9 @@ export default {
       minWidth: {
         "60p": "60%", // Adding custom minimum width of 60%
       },
+      padding: {
+        "100p": "100%",
+      },
     },
   },
   plugins: [],
