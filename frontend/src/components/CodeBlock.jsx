@@ -6,7 +6,7 @@ export const CodeBlock = () => {
 return(
   <>
     <table className="bg-gray-800 min-w-60p ">
-      <tbody className="block px-8">
+      <tbody className="block pl-9 pr-8 py-6">
         <code className="text-stone-100 whitespace-pre-wrap">
           <span className="block">
             <span className="text-pink-400">const</span> 
@@ -44,7 +44,7 @@ return(
               <span className="text-yellow-200">{"@digital_marketing"}</span><span>{"]"}</span>
           </span>
           <span className="block pl-100p">
-            <span>{"}"}</span>
+            <span>{"};"}</span>
           </span>
         </code>
       </tbody>
