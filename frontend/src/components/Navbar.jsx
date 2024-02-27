@@ -14,7 +14,7 @@ const navigation = [
 
 export const Navbar = () => {
   return (
-    <div className="font-spaceMono h-16 flex flex-row justify-end items-center bg-sky-950 text-sm ">
+    <div className="font-spaceMono h-16 flex flex-row justify-end items-center text-sm ">
     {navigation.map((item) => (
       <button className="mr-4 ">
         <span className=" text-fuchsia-300">{`${item.id}.  `}</span>

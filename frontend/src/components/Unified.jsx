@@ -19,7 +19,7 @@ export const MainContainer = () => {
   };
 
   return (
-    <div style={gradientStyle} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
+    <div  style={gradientStyle} onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave}>
       <Navbar gradientStyle={gradientStyle}/>
       <App gradientStyle={gradientStyle}/>
     </div>
