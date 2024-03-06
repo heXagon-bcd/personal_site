@@ -38,7 +38,7 @@ export const Experiences = () => {
       <div>
         {
           data.map((item,index) => (
-          <div className=" text-white font-colfax flex mb-14 " key={index}>
+          <div className=" text-white font-colfax flex mb-12 " key={index}>
               <div className="shrink-0 w-48">
                 <img src={item.image} alt="black-compass-image" />
               </div>

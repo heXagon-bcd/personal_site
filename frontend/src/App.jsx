@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react"
 import { CodeBlock } from "./components/CodeBlock";
 import { CodeRow } from "./utils/CodeRow";
 import { Experiences } from "./components/Experiences";
+import { Portfolio } from "./components/Portfolio";
 import './output.css'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="px-48">
+      <div className="px-80">
               <div className="text-white h-screen">
                 <p className="font-spaceMono text-fuchsia-300 mt-32 mb-8">Hello My Name Is</p>
                 <h1 className="font-colfax font-medium text-5xl text-slate-100 mb-2">Shawn He</h1>
@@ -30,7 +31,7 @@ function App() {
                   <CodeBlock/>
                 </div>
               </div>
-              <div className=" text-slate-100 text-3xl font-medium">
+              <div className=" text-slate-100 text-3xl font-medium mb-48">
                 <h1>About Me</h1>
                   <div className="flex flex-row">
                     <div className="text-slate-400 font-colfax text-base font-normal mt-8">
@@ -50,8 +51,11 @@ function App() {
               </div>
               <div className=" text-slate-100 text-3xl font-medium">
                   <h1 className="mt-24">Experiences</h1>
-                  <div className="mt-8"><Experiences/></div>
-                
+                  <div className="mt-8 mb-48"><Experiences/></div>    
+              </div>
+              <div className=" text-slate-100 text-3xl font-medium">
+                <h1 className="mt-24">Portfolio</h1>
+                <Portfolio/>
               </div>
       </div>
     </>
