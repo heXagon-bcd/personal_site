@@ -802,6 +802,30 @@ video {
   width: 83.333333%;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1145,6 +1169,16 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-medium {

@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div className="px-80">
+      <div className="px-72">
               <div className="text-white h-screen">
                 <p className="font-spaceMono text-fuchsia-300 mt-32 mb-8">Hello My Name Is</p>
                 <h1 className="font-colfax font-medium text-5xl text-slate-100 mb-2">Shawn He</h1>

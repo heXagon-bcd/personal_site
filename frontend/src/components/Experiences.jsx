@@ -39,15 +39,15 @@ export const Experiences = () => {
         {
           data.map((item,index) => (
           <div className=" text-white font-colfax flex mb-12 " key={index}>
-              <div className="shrink-0 w-48">
+              <div className="shrink-0 w-28">
                 <img src={item.image} alt="black-compass-image" />
               </div>
               <div className="w-1/5">
                 <div className="text-slate-500 font-semibold text-xs p-4 pr-8 pt-1 text-right">{item.time}</div>
               </div>
-              <div className="w-4/5 mb-4">
+              <div className="w-3/5 mb-4">
                 <div className="text-slate-200"><span>{item.title2} </span>{item.company}</div>
-                <div className="text-slate-500 mb-2">{item.title}</div>
+                <div className="text-slate-500 mb-2 text-2xl">{item.title}</div>
                 <div className="text-slate-500 text-sm">{item.description}</div>
                 <div className="mr-3 mt-3">{item.technolgy.map((element) => (
                   <span className="px-1 py-1 w-min"><span className="rounded-full text-xs font-semibold text-purple-400 bg-purple-400 bg-opacity-20 px-3 py-1">{element}</span></span>
