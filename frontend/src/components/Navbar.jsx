@@ -14,8 +14,8 @@ const navigation = [
 
 export const Navbar = () => {
   return (
-<div className="flex h-16 items-center">
-      <div className="h-10 w-10 flex items-center justify-center"><img className="inline-block h-8 align-middle" src="../../public/images/shawn_logo.svg" alt="logo" /></div>
+<div className="flex h-16 items-center justify-between">
+      <div className="h-10 w-28 pl-16"><img className="inline-block h-8 align-middle" src="../../public/images/shawn_logo.png" alt="logo" /></div>
       <div className="font-spaceMono h-16 flex flex-row justify-end items-center text-sm">
       {navigation.map((item) => (
         <button className="mr-4 ">
@@ -23,7 +23,7 @@ export const Navbar = () => {
           <span className="text-slate-100 hover:text-fuchsia-300">{item.name}</span>
         </button>
       ))}
-      <button className="btn-border-drawing">Resume</button>
+      <button className="btn-border-drawing">Book Call</button>
       </div>
 </div>
   )

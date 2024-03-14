@@ -3,9 +3,10 @@ import { CodeBlock } from "./components/CodeBlock";
 import { CodeRow } from "./utils/CodeRow";
 import { Experiences } from "./components/Experiences";
 import { Portfolio } from "./components/Portfolio";
+import { AboutMe } from "./components/AboutMe";
 import './output.css'
 
-function App() {
+function App({gradientStyle}) {
 
   useEffect(() => {
     // Add the Tailwind class to the body element
@@ -27,8 +28,8 @@ function App() {
                 <p className="font-colfax font-medium text-5xl text-slate-400 mb-8">I Deliver Value For The Web</p>
                 <p className="font-colfax text-slate-400 mb-12">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
                 <div className="flex flex-row">
-                  <CodeRow/>
-                  <CodeBlock/>
+                  <CodeRow gradientStyle={gradientStyle}/>
+                  <CodeBlock gradientStyle={gradientStyle}/>
                 </div>
               </div>
               <div className=" text-slate-100 text-3xl font-medium mb-48">
@@ -46,17 +47,18 @@ function App() {
                           <li>Sales - B2B sales in the telco industry and B2C sales in Banking - Lending/Investments</li> */}
                       </div>
                     </div>
-                    <div className="shrink-0 mt-8"><img src="../public/images/shawnhe.png" className="w-full object-contain"></img></div>
+                    <div className="shrink-0 mt-8"><img src="../public/images/shawnhe.png" className="w-full object-contain rounded-md"></img></div>
                   </div>
               </div>
               <div className=" text-slate-100 text-3xl font-medium">
                   <h1 className="mt-24">Experiences</h1>
-                  <div className="mt-8 mb-48"><Experiences/></div>    
+                  <div className="mt-8 mb-48"><Experiences gradientStyle={gradientStyle}/></div>    
               </div>
               <div className=" text-slate-100 text-3xl font-medium">
                 <h1 className="mt-24">Portfolio</h1>
                 <Portfolio/>
               </div>
+              <div><AboutMe/></div>
       </div>
     </>
   )

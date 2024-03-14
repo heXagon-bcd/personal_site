@@ -32,13 +32,13 @@ const data = [
 ]
 
 
-export const Experiences = () => {
+export const Experiences = ({gradientStyle}) => {
   return (
     <>
-      <div>
+      <div className="">
         {
           data.map((item,index) => (
-          <div className=" text-white font-colfax flex mb-12 " key={index}>
+          <div className=" text-white font-colfax flex p-6 pt-8 mb-8 bf rounded border-4" key={index}>
               <div className="shrink-0 w-28">
                 <img src={item.image} alt="black-compass-image" />
               </div>
