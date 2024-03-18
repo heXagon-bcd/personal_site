@@ -38,7 +38,7 @@ export const Experiences = ({gradientStyle}) => {
       <div className="">
         {
           data.map((item,index) => (
-          <div className=" text-white font-colfax flex p-6 pt-8 mb-8 bf rounded border-4 hover:border-fuchsia-300 hover:shadow-md hover:shadow-fuchsia-300 hover:scale-105 transition duration-500 ease-in" key={index}>
+          <div className="border-2 text-white font-colfax flex p-6 pt-8 mb-8 bf rounded hover:border-fuchsia-300 hover:shadow-md hover:shadow-fuchsia-300 hover:bg-white/2 backdrop-blur-3xl" key={index}>
               <div className="shrink-0 w-28">
                 <img src={item.image} alt="black-compass-image" />
               </div>

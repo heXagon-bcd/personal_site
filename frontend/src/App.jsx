@@ -32,7 +32,7 @@ function App({gradientStyle}) {
                   <CodeBlock gradientStyle={gradientStyle}/>
                 </div>
               </div>
-              <div className=" text-slate-100 text-3xl font-medium mb-48">
+              <div className=" text-slate-100 text-3xl font-medium mb-72">
                 <h1>About Me</h1>
                   <div className="flex flex-row">
                     <div className="text-slate-400 font-colfax text-base font-normal mt-8">
@@ -52,13 +52,13 @@ function App({gradientStyle}) {
               </div>
               <div className=" text-slate-100 text-3xl font-medium">
                   <h1 className="mt-24">Experiences</h1>
-                  <div className="mt-8 mb-48"><Experiences gradientStyle={gradientStyle}/></div>    
+                  <div className="mt-8 mb-72"><Experiences gradientStyle={gradientStyle}/></div>    
               </div>
               <div className=" text-slate-100 text-3xl font-medium">
-                <h1 className="mt-24">Portfolio</h1>
+                <h1 className="mt-24 mb-8">Portfolio</h1>
                 <Portfolio/>
               </div>
-              <div><AboutMe/></div>
+              <div className="mt-72"><AboutMe/></div>
       </div>
     </>
   )
