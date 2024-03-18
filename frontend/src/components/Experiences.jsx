@@ -38,17 +38,17 @@ export const Experiences = ({gradientStyle}) => {
       <div className="">
         {
           data.map((item,index) => (
-          <div className="border-2 text-white font-colfax flex p-6 pt-8 mb-8 bf rounded hover:border-fuchsia-300 hover:shadow-md hover:shadow-fuchsia-300 hover:bg-white/2 backdrop-blur-3xl" key={index}>
+          <div className="border-2 text-white font-colfax flex p-6 pt-8 mb-8 bf rounded hover:border-fuchsia-300 hover:shadow-md hover:shadow-fuchsia-300 hover:bg-white/10 backdrop-blur-3xl" key={index}>
               <div className="shrink-0 w-28">
                 <img src={item.image} alt="black-compass-image" />
               </div>
               <div className="w-1/5">
-                <div className="text-slate-500 font-semibold text-xs p-4 pr-8 pt-1 text-right">{item.time}</div>
+                <div className="text-slate-300 font-semibold text-xs p-4 pr-8 pt-1 text-right">{item.time}</div>
               </div>
               <div className="w-3/5 mb-4">
-                <div className="text-slate-200"><span>{item.title2} </span>{item.company}</div>
-                <div className="text-slate-500 mb-2 text-2xl">{item.title}</div>
-                <div className="text-slate-500 text-sm">{item.description}</div>
+                <div className="text-slate-100"><span>{item.title2} </span>{item.company}</div>
+                <div className="text-slate-300 mb-2 text-2xl">{item.title}</div>
+                <div className="text-slate-300 text-sm">{item.description}</div>
                 <div className="mr-3 mt-3">{item.technolgy.map((element) => (
                   <span className="px-1 py-1 w-min"><span className="rounded-full text-xs font-semibold text-purple-400 bg-purple-400 bg-opacity-20 px-3 py-1">{element}</span></span>
                 ))}

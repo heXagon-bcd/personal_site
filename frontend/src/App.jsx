@@ -21,22 +21,22 @@ function App({gradientStyle}) {
 
   return (
     <>
-      <div className="px-72">
-              <div className="text-white h-screen">
-                <p className="font-spaceMono text-fuchsia-300 mt-32 mb-8">Hello My Name Is</p>
-                <h1 className="font-colfax font-medium text-5xl text-slate-100 mb-2">Shawn He</h1>
-                <p className="font-colfax font-medium text-5xl text-slate-400 mb-8">I Deliver Value For The Web</p>
-                <p className="font-colfax text-slate-400 mb-12">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
+      <div className="md:px-72">
+              <div className="text-white md:h-screen">
+                <p className="mt-32 mb-8 font-spaceMono text-fuchsia-300">Hello My Name Is</p>
+                <h1 className="mb-2 text-5xl font-medium font-colfax text-slate-50">Shawn He</h1>
+                <p className="mb-8 text-5xl font-medium font-colfax text-slate-300">I Deliver Value For The Web</p>
+                <p className="mb-12 font-colfax text-slate-300">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
                 <div className="flex flex-row">
                   <CodeRow gradientStyle={gradientStyle}/>
                   <CodeBlock gradientStyle={gradientStyle}/>
                 </div>
               </div>
-              <div className=" text-slate-100 text-3xl font-medium mb-72">
-                <h1>About Me</h1>
+              <div className="text-3xl font-medium text-slate-100 mb-72">
+                <h1 id="about">About Me</h1>
                   <div className="flex flex-row">
-                    <div className="text-slate-400 font-colfax text-base font-normal mt-8">
-                      <div className="shrink min-w-0 pr-8">
+                    <div className="mt-8 text-base font-normal text-slate-300 font-colfax">
+                      <div className="min-w-0 pr-8 shrink">
                           <p className="mb-2">"A jack of all trades is a master of none, but oftentimes better than a master of one."</p>
                           <p className="mb-2">I take pride in having worked in different industries because it led to my passion - the web. I started my career in finance, and while running my ecom store, wanted to learn about the full omni experience in retail. I was always part of many pilot technology programs, and knew that technology was a field. With a bit of luck and hard work, those experiences helped me start a private label brand and exit for just over 7 figures. After starting a Digital Marketing Agency with my co-founder Phil, we realized how important it was for one of us to become a technical founder.  Given that I was raised in a family of software engineers, it was a very natural transition.</p>
                           <p>My strategic vision is </p>
@@ -47,18 +47,18 @@ function App({gradientStyle}) {
                           <li>Sales - B2B sales in the telco industry and B2C sales in Banking - Lending/Investments</li> */}
                       </div>
                     </div>
-                    <div className="shrink-0 mt-8"><img src="../public/images/shawnhe.png" className="w-full object-contain rounded-lg border hover:shadow-md hover:shadow-fuchsia-300"></img></div>
+                    <div className="mt-8 shrink-0"><img src="../public/images/shawnhe.png" className="object-contain w-full border rounded-lg hover:shadow-md hover:shadow-fuchsia-300"></img></div>
                   </div>
               </div>
-              <div className=" text-slate-100 text-3xl font-medium">
-                  <h1 className="mt-24">Experiences</h1>
+              <div className="text-3xl font-medium text-slate-100">
+                  <h1 id="experience"  className="mt-24">Experiences</h1>
                   <div className="mt-8 mb-72"><Experiences gradientStyle={gradientStyle}/></div>    
               </div>
-              <div className=" text-slate-100 text-3xl font-medium">
-                <h1 className="mt-24 mb-8">Portfolio</h1>
+              <div className="text-3xl font-medium text-slate-100">
+                <h1 id="portfolio" className="mt-24 mb-8">Portfolio</h1>
                 <Portfolio/>
               </div>
-              <div className="mt-72"><AboutMe/></div>
+              <div id="contact" className="mb-24 mt-72"><AboutMe/></div>
       </div>
     </>
   )
