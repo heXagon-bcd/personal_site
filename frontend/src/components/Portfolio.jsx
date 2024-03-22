@@ -33,16 +33,16 @@ const data = [
 export const Portfolio = () => {
   
   return (
-    <div className="text-white font-semibold grid grid-cols-2 ">
+    <div className="grid grid-cols-1 font-semibold text-white md:grid-cols-2 ">
       {
         data.map((item,index) => (
-          <div>
-            <div index={index} className=" border-2 font-colfax flex flex-row p-3 mr-3 mb-12 w-11/12 rounded rounded-md hover:border-fuchsia-300 hover:shadow-fuchsia-300 hover:shadow-md hover:bg-white/5 backdrop-blur-3xl">
-              <div className="w-5/6">
+          <div className="">
+            <div index={index} className="flex flex-col p-3 mb-12 border-2 rounded rounded-md md:mr-3 md:w-11/12 md:flex-row font-colfax hover:border-fuchsia-300 hover:shadow-fuchsia-300 hover:shadow-md hover:bg-white/5 backdrop-blur-3xl">
+              <div className="md:w-5/6">
                 <a href={item.url} className="text-slate-100">{item.title}</a>
-                <div className="text-slate-300 text-sm h-20">{item.description}</div>
-                <div className="flex flex-row">{item.technology.map((tech, index) => (
-                  <div className="mx-1 my-1 w-1.65"><span className="rounded-full text-xs font-semibold text-purple-400 bg-purple-400 bg-opacity-20 px-3 py-1">{tech}</span></div>
+                <div className="h-20 text-sm text-slate-300">{item.description}</div>
+                <div className="flex flex-row flex-wrap">{item.technology.map((tech, index) => (
+                  <div className="mx-1 my-1 w-1.65"><span className="px-3 py-1 text-xs font-semibold text-purple-400 bg-purple-400 rounded-full bg-opacity-20">{tech}</span></div>
                   ))}
                 </div>
               </div>  

@@ -19,18 +19,18 @@ const navigation = [
 
 export const Navbar = () => {
   return (
-<div className="flex h-16 items-center justify-between">
-      <div className="h-10 w-28 pl-16"><img className="inline-block h-8 align-middle" src="../../public/images/shawn_logo.png" alt="logo" /></div>
-      <div className="font-spaceMono h-16 flex flex-row justify-end items-center text-sm">
+<div className="flex md:justify-between md:items-center md:h-16">
+      <div className="md:pl-16 md:h-10 md:w-28"><img className="inline-block h-2 align-middle md:h-8" src="../../public/images/shawn_logo.png" alt="logo" /></div>
+      <div className="flex flex-row items-center justify-end h-16 text-sm font-spaceMono">
       {navigation.map((item) => (
       <Link
       key={item.section}
       to={item.section}
       smooth={true}
       duration={500}
-      className="cursor-pointer mr-4"
+      className="mr-4 cursor-pointer"
       activeClass="text-fuchsia-300">
-        <button className="mr-4 ">
+        <button className=" md:mr-4">
           <span className=" text-fuchsia-300">{`${item.id}.  `}</span>
           <span className="text-slate-100 hover:text-fuchsia-300">{item.name}</span>
         </button>

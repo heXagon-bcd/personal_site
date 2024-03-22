@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn-border-drawing {
-  @apply text-fuchsia-300 mr-4 p-2 px-4 border-fuchsia-300 shadow-[inset_0_0_0_2px_#F0ABFC] relative transition-colors duration-75;
+  @apply text-fuchsia-300 p-2 px-4 border-fuchsia-300 shadow-[inset_0_0_0_2px_#F0ABFC] relative transition-colors duration-75;
 }
 
 .btn-border-drawing:hover {
