@@ -5,7 +5,7 @@ import '../../src/output.css'
 export const CodeBlock = () => {
 return(
   <>
-    <table className="text-sm bg-gray-800 md:min-w-60p ">
+    <table className="text-xs bg-gray-800 md:text-base md:min-w-60p ">
       <tbody className="block md:pr-8 md:py-6 md:pl-9">
         <code className="whitespace-pre-wrap text-stone-100">
           <span className="block">
