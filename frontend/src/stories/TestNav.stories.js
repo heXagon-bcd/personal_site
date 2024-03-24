@@ -11,3 +11,10 @@ export const Primary = {
     label: "Navbar",
   },
 };
+
+export const Secondary = {
+  args: {
+    primary: true,
+    label: "Navbar",
+  },
+};

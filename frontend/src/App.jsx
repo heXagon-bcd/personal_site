@@ -23,10 +23,10 @@ function App({gradientStyle}) {
     <>
       <div className="w-screen px-4 md:px-20 lg:px-24 xl:px-48 2xl:px-72">
               <div className="text-white h-svh xl:h-screen">
-                <p className="mt-24 mb-8 xl:mt-32 md: font-spaceMono text-fuchsia-300">Hello My Name Is</p>
+                <p className="mt-24 mb-8 text-lg xl:mt-32 md: font-spaceMono text-fuchsia-300">Hello My Name Is</p>
                 <h1 className="mb-2 text-5xl font-medium font-colfax text-slate-50">Shawn He</h1>
                 <p className="mb-8 text-5xl font-medium font-colfax text-slate-300">I Deliver Value For The Web</p>
-                <p className="mb-12 font-colfax text-slate-300">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
+                <p className="mb-12 text-lg font-colfax text-slate-300">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
                 <div className="flex flex-row">
                   <CodeRow gradientStyle={gradientStyle}/>
                   <CodeBlock gradientStyle={gradientStyle}/>
@@ -50,11 +50,11 @@ function App({gradientStyle}) {
                     <div className="order-first mt-8 md:order-last md:shrink-0"><img src="../public/images/shawnhe.png" className="object-contain border rounded-lg md:w-full hover:shadow-md hover:shadow-fuchsia-300"/></div>
                   </div>
               </div>
-              <div className="text-3xl font-medium text-slate-100">
+              <div className="text-6xl font-medium md:text-3xl text-slate-100">
                   <h1 id="experience"  className="mt-24">Experiences</h1>
                   <div className="mt-8 mb-72"><Experiences gradientStyle={gradientStyle}/></div>    
               </div>
-              <div className="text-3xl font-medium text-slate-100">
+              <div className="text-6xl font-medium md:text-3xl text-slate-100">
                 <h1 id="portfolio" className="mt-24 mb-8">Portfolio</h1>
                 <Portfolio/>
               </div>
