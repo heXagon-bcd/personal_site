@@ -27,7 +27,6 @@ export const Primary = {
   args: {
     primary: true,
     label: "Portfolio",
-    parameters: { viewport: { defaultViewport: 'iphone14promax', }},
   },
 };
 
@@ -35,5 +34,8 @@ export const Phone = {
   args: {
     primary: true,
     label: "Portfolio",
+  },
+  parameters: { 
+    viewport: { defaultViewport: 'iphone14promax', }
   },
 };
