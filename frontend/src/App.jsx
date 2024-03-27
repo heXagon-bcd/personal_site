@@ -4,7 +4,6 @@ import { CodeRow } from "./utils/CodeRow";
 import { Experiences } from "./components/Experiences";
 import { Portfolio } from "./components/Portfolio";
 import { AboutMe } from "./components/AboutMe";
-import { TiThMenu } from "react-icons/ti";
 
 import './output.css'
 

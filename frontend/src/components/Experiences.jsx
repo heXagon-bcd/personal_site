@@ -68,7 +68,7 @@ console.log("width",window.innerHeight)
                         <div className="flex justify-center text-xl md:text-lg">{item.company}</div>
                       </div>
                       <div className="flex justify-center mb-2 text-md lg:text-lg xl:text-2xl text-slate-300 md:justify-start">{item.title}</div>
-                      <div className="flex justify-center text-sm md:justify-start text-slate-300">{item.description}</div>
+                      <div className="flex justify-center text-sm md:justify-start text-slate-300 ">{item.description}</div>
                       <div className="flex flex-row flex-wrap mt-3 mr-3">{item.technolgy.map((element) => (
                       <div className="px-1 py-1 w-min"><span className="px-3 py-1 text-xs font-semibold text-purple-400 bg-purple-400 rounded-full bg-opacity-20">{element}</span></div>
                     ))}
