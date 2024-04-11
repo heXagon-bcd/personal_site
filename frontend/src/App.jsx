@@ -26,7 +26,7 @@ function App({gradientStyle}) {
               <div className="text-white h-svh xl:h-screen">
                 <p className="mt-24 mb-8 text-lg xl:mt-32 md: font-spaceMono text-fuchsia-300">Hello My Name Is</p>
                 <h1 className="mb-2 text-5xl font-medium font-colfax text-slate-50">Shawn He</h1>
-                <p className="mb-8 text-5xl font-medium font-colfax text-slate-300">I Deliver Value For The Web</p>
+                <p className="mb-8 text-3xl font-medium font-colfax text-slate-300">Letting my curious mind wander through the web and creating fascinating projects from it. </p>
                 <p className="mb-12 text-lg font-colfax text-slate-300">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
                   <div className="flex flex-row overflow-auto shrink-0 grow-0 h-max">
                     <CodeRow gradientStyle={gradientStyle}/>
@@ -39,9 +39,8 @@ function App({gradientStyle}) {
                     <div className="mt-8 text-lg font-normal md:text-base text-slate-300 font-colfax">
                       <div className="min-w-0 text-lg md:pr-8 shrink md:text-base">
                           <p className="mb-2">"A jack of all trades is a master of none, but oftentimes better than a master of one."</p>
-                          <p className="mb-2">I take pride in xhaving worked in different industries because it led to my passion - the web. I started my career in finance, and while running my ecom store, wanted to learn about the full omni experience in retail. I was always part of many pilot technology programs, and knew that technology was a field. With a bit of luck and hard work, those experiences helped me start a private label brand and exit for just over 7 figures. After starting a Digital Marketing Agency with my co-founder Phil, we realized how important it was for one of us to become a technical founder.  Given that I was raised in a family of software engineers, it was a very natural transition.</p>
-                          <p>My strategic vision is </p>
-                          <p>To unwind, I do enjoy reading books about inspiration people, play some video games, and spending time with my daughter.</p>
+                          <p className="mb-2">With a background in sales, supply chain, and e-commerce, I've leveraged my experiences to establish a successful digital marketing agency. My journey has equipped me with unique insights into customer engagement and innovation, which I apply to create standout strategies for our clients. My entrepreneurial drive fuels our agency's growth, turning challenges into opportunities. </p>
+                          <p>I now add web development to my foray of skills to always keep challenging myself and taking greater leaps in my personal and career development. </p>
                           {/* <li>Present - Founder & Lead Developer, Black Compass Digital.</li>
                           <li>Ecom - I started a brand in 2017 and solid it for just over 7 figures in 2021. </li>
                           <li>Retail Technology - I transformed & modernized an entire replenishment and demand system, using Blue Yonder. I wore multiple hats, and became an expert on retail systems.  </li>

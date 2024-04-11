@@ -4,26 +4,27 @@ import '../../src/output.css'
 const data = [
   {image:"../../public/images/portfolio_images/flyboy.png",
   title: "Flyboy Travel Itinerary",
-  description: `This project is a Travel App Itinerary that plans your accomodation and areas of interest by day.
-  It ensures that young adults are able to find the most cost effective trip.  The app leverages Yelp API, Booking COM API to query data.  The app uses react front end and node js ba`,
+  description: `If you love travelling, you’ll know planning for a memorable trip is the worst part. 
+
+  I created this travel app to deal with that headache. Flyboy allows you to plan a trip’s itinerary with Yelp’s API to recommend top-rated spots and the booking.com API for the best accommodation deals. This was designed to build you a full trip itinerary plan for a seamless unforgettable experience. `,
   url:"https://github.com/heXagon-bcd/lhlfinal_flyboy",
   technology:["React", "Nodejs", "VanillaCSS", "YelpAPI", "BookingsAPI"]
   },
-  {image:"../../public/images/portfolio_images/flyboy.png",
+  {image:"../../public/images/portfolio_images/taskbotics.png",
   title: "Taskbotics",
-  description: `This project is a Open Ai task tracking app.  It leverages open api to smartly categorize whatever task you want to track.  The tech stack is EJS, Nodejs, jQuery and SASS,`,
+  description: `Task tracking app built from Open AI. Allows you to smartly categorize your tasks and track which tasks you are looking for. I’m a productivity geek and love hacking productivity along the way.`,
   url:"https://github.com/heXagon-bcd/lhlmidterm",
   technology:["EJS", "Nodejs", "CSS", "OpenAI", "jQuery"]
   },
   {image:"../../public/images/portfolio_images/flyboy.png",
   title: "YogiBands",
-  description: `This ecom store was desiged and created by myself using Shopify. This private label brand sold $1 million dollars in sales before being sold in 2021. I used liquid, jquery to customize certain aspects of Store, such as product cards.`,
+  description: `Fitness ecom store selling fitness gear and strength bands. Started as a passion project when I wanted to design a more female-centric fitness gear brand for my fiancé now wife to help with her workouts. This turned into a full fledged business crossing over $5M in sales in 3 years and eventually selling it off in 2021. `,
   url:"https://www.theyogibands.com",
   technology:["Shopify", "Liquid", "jQuery"]
   },
   {image:"../../public/images/portfolio_images/flyboy.png",
   title: "XNM Creations",
-  description: `This is the first website i built using shopify.  It generated 2 million dollars in overall sales.`,
+  description: `My holdco. This is my own personal blackbox. This is where all my assets and projects resides. Where I can tinker around with whatever I’m working on or building something in stealth mode. `,
   url:"https://www.xnmcreations.com",
   technology:["Shopify", "Liquid", "jQuery"]
   }
