@@ -862,6 +862,10 @@ video {
   width: 100vw;
 }
 
+.w-1\/12 {
+  width: 8.333333%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -1663,6 +1667,10 @@ video {
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-1\/6 {
+    width: 16.666667%;
   }
 
   .md\:flex-none {

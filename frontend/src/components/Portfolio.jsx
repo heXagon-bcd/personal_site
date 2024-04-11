@@ -5,8 +5,7 @@ const data = [
   {image:"../../public/images/portfolio_images/flyboy.png",
   title: "Flyboy Travel Itinerary",
   description: `If you love travelling, you’ll know planning for a memorable trip is the worst part. 
-
-  I created this travel app to deal with that headache. Flyboy allows you to plan a trip’s itinerary with Yelp’s API to recommend top-rated spots and the booking.com API for the best accommodation deals. This was designed to build you a full trip itinerary plan for a seamless unforgettable experience. `,
+I created this travel app to deal with that headache. Flyboy allows you to plan a trip’s itinerary with Yelp’s API to recommend top-rated spots and the booking.com API for the best accommodation deals.`,
   url:"https://github.com/heXagon-bcd/lhlfinal_flyboy",
   technology:["React", "Nodejs", "VanillaCSS", "YelpAPI", "BookingsAPI"]
   },
@@ -16,13 +15,13 @@ const data = [
   url:"https://github.com/heXagon-bcd/lhlmidterm",
   technology:["EJS", "Nodejs", "CSS", "OpenAI", "jQuery"]
   },
-  {image:"../../public/images/portfolio_images/flyboy.png",
+  {image:"../../public/images/portfolio_images/yogibands.png",
   title: "YogiBands",
   description: `Fitness ecom store selling fitness gear and strength bands. Started as a passion project when I wanted to design a more female-centric fitness gear brand for my fiancé now wife to help with her workouts. This turned into a full fledged business crossing over $5M in sales in 3 years and eventually selling it off in 2021. `,
   url:"https://www.theyogibands.com",
   technology:["Shopify", "Liquid", "jQuery"]
   },
-  {image:"../../public/images/portfolio_images/flyboy.png",
+  {image:"../../public/images/portfolio_images/xnmcreations.png",
   title: "XNM Creations",
   description: `My holdco. This is my own personal blackbox. This is where all my assets and projects resides. Where I can tinker around with whatever I’m working on or building something in stealth mode. `,
   url:"https://www.xnmcreations.com",
@@ -32,7 +31,10 @@ const data = [
 
 
 export const Portfolio = () => {
-  
+
+  data.map((item,index) => (
+    console.log(item.image)
+  ))
   return (
     <div className="grid grid-cols-1 font-semibold text-white md:grid-cols-2 ">
       {
@@ -47,7 +49,7 @@ export const Portfolio = () => {
                     ))}
                   </div>
                 </div>  
-                <div className="flex items-center justify-center order-first w-11/12 h-48 m-5 mb-4 md:w-auto md:m-0 md:order-last"><img className="h-20" src={item.image} alt={item.title}/></div>         
+                <div className="flex items-center justify-center order-first w-1/12 h-48 m-5 mb-4 md:w-1/6 md:m-0 md:order-last"><img className="h-20" src={item.image} alt={item.title}/></div>         
             </div>
           </div>
         ))
