@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll"
+import { Link, Element } from "react-scroll"
 import { IoMenu, IoClose } from "react-icons/io5";
 import '../output.css'
 
