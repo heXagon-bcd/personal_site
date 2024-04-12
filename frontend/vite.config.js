@@ -10,4 +10,5 @@ export default defineConfig({
       "react-scroll": "/node_modules/react-scroll/modules/index.js", // adjust this path based on actual location
     },
   },
+  
 });
