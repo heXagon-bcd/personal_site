@@ -9,7 +9,7 @@ const data = [
     title2: "Lead Developer",
     technolgy: ["Javascript", "HTML", "Tailwindcss", "React", "nodejs"],
     description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
-    image: '../../public/images/bcd_logo.png'
+    image: '/images/bcd_logo.png'
                           },
                             {
     time: "2022 - PRESENT",
@@ -18,7 +18,7 @@ const data = [
     title2: "Advisor",
     technolgy: ["Javascript", "HTML", "Shopify", "Liquid", "nodejs"],
     description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
-    image: '../../public/images/ifab_logo.webp'
+    image: '/images/ifab_logo.webp'
                           },
   {
     time: "2019 - 2022",
@@ -27,7 +27,7 @@ const data = [
     title2: "Project Manager",
     technolgy: ["Javascript", "HTML", "Shopify", "Liquid", "nodejs"],
     description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
-    image: '../../public/images/pv.png'
+    image: '/images/pv.png'
                           }
 ]
 
