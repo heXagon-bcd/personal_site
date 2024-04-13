@@ -30,7 +30,7 @@ export const Navbar = () => {
   return (
     // desktop view
 <div className="relative flex items-center justify-between h-auto">
-      <div className="w-10 h-10 pl-4 md:pl-16 md:h-10 md:w-28"><img className="inline-block align-middle md:h-8" src="../../public/images/shawn_logo.png" alt="logo" /></div>
+      <div className="w-10 h-10 pl-4 md:pl-16 md:h-10 md:w-28"><img className="inline-block align-middle md:h-8" src="/images/shawn_logo.png" alt="logo" /></div>
       <div className="items-center justify-end hidden h-16 text-sm md:flex flmd:ex-row font-spaceMono">
       {navigation.map((item) => (
       <Link
