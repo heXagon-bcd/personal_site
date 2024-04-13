@@ -47,7 +47,7 @@ function App({gradientStyle}) {
                           <li>Sales - B2B sales in the telco industry and B2C sales in Banking - Lending/Investments</li> */}
                       </div>
                     </div>
-                    <div className="order-first mt-8 md:order-last md:shrink-0 snap-x"><img src="../public/images/shawnhe.png" className="object-contain border rounded-lg md:w-full hover:shadow-md hover:shadow-fuchsia-300"/></div>
+                    <div className="order-first mt-8 md:order-last md:shrink-0 snap-x"><img src="/images/shawnhe.png" className="object-contain border rounded-lg md:w-full hover:shadow-md hover:shadow-fuchsia-300"/></div>
                   </div>
               </div>
               <div className="text-3xl font-medium md:text-3xl text-slate-100">
