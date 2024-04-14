@@ -49,7 +49,7 @@ export const Portfolio = () => {
                     ))}
                   </div>
                 </div>  
-                <div className="flex items-center justify-center order-first w-1/12 h-48 m-5 mb-4 md:w-1/6 md:m-0 md:order-last"><img className="h-20" src={item.image} alt={item.title}/></div>         
+                <div className="flex items-center justify-center order-first h-48 m-5 mb-4 md:w-1/6 md:m-0 md:order-last"><img className="h-20" src={item.image} alt={item.title}/></div>         
             </div>
           </div>
         ))
