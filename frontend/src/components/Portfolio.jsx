@@ -5,7 +5,7 @@ const data = [
   {image:"/images/portfolio_images/flyboy.png",
   title: "Flyboy Travel Itinerary",
   description: `If you love travelling, you’ll know planning for a memorable trip is the worst part. 
-I created this travel app to deal with that headache. Flyboy allows you to plan a trip’s itinerary with Yelp to recommend top-rated spots and the booking.com API for the best accommodation deals.`,
+I created this travel app to deal with that headache. Flyboy allows you to plan a trip’s itinerary with Yelp to recommend top-rated spots and best accommodation deals.`,
   url:"https://github.com/heXagon-bcd/lhlfinal_flyboy",
   technology:["React", "Nodejs", "VanillaCSS", "YelpAPI", "BookingsAPI"]
   },
