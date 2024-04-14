@@ -729,6 +729,10 @@ video {
   margin-top: 2rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1603,6 +1607,10 @@ video {
     margin: 0px;
   }
 
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+
   .md\:mb-8 {
     margin-bottom: 2rem;
   }
@@ -1625,6 +1633,10 @@ video {
 
   .md\:mr-4 {
     margin-right: 1rem;
+  }
+
+  .md\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .md\:flex {
