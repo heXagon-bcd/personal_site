@@ -37,7 +37,7 @@ export const Portfolio = () => {
     console.log(item.image)
   ))
   return (
-    <div className="grid grid-cols-1 font-semibold text-white md:grid-cols-2 ">
+    <div className="grid grid-cols-1 text-white md:grid-cols-2 ">
       {
         data.map((item,index) => (
           <a href={item.url}>
