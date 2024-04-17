@@ -8,7 +8,7 @@ const data = [
     title:  "Founder",
     title2: "Lead Developer",
     technolgy: ["Javascript", "HTML", "Tailwindcss", "React", "nodejs"],
-    description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
+    description:"As the founder of a cutting-edge web design agency, I blend art and technology to craft unique digital experiences that elevate brands and engage users.",
     image: '/images/bcd_logo.png'
                           },
                             {
@@ -17,7 +17,7 @@ const data = [
     title:  "Ecom & Supply Chain Consultant",
     title2: "Advisor",
     technolgy: ["Javascript", "HTML", "Shopify", "Liquid", "nodejs"],
-    description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
+    description:"As an e-commerce consultant for a tech apparel brand, I leverage the latest digital strategies to amplify online presence, optimize sales channels, and drive sustainable growth in the competitive fashion-tech landscape.",
     image: '/images/ifab_logo.webp'
                           },
   {
@@ -26,7 +26,7 @@ const data = [
     title:  "Replenishment Lead",
     title2: "Project Manager",
     technolgy: ["Javascript", "HTML", "Shopify", "Liquid", "nodejs"],
-    description:"Design, style, and deploy high-quality websites and digital experiences to deliver millions of dollars of sales to digital and phyiscal products.",
+    description:"As a replenishment lead, I fine-tune our logistics and inventory management to guarantee smooth product delivery, maximizing operational efficiency and delighting pets and their owners.",
     image: '/images/pv.png'
                           }
 ]

@@ -28,7 +28,8 @@ function App({gradientStyle}) {
                   <p className="mt-24 mb-8 text-lg xl:mt-32 md: font-spaceMono text-fuchsia-300">Hello My Name Is</p>
                   <h1 className="mb-2 text-5xl font-medium font-colfax text-slate-50">Shawn He</h1>
                   <p className="mb-8 text-3xl font-medium font-colfax text-slate-300">Letting my curious mind wander through the web and creating fascinating projects from it. </p>
-                  <p className="mb-12 text-lg font-colfax text-slate-300">I am  the founder of <span className="text-fuchsia-300">Black Compass Digital</span> and Lead Developer.  I develop websites and help brands make scale to the millions</p>
+                  <p className="mb-12 text-lg font-colfax text-slate-300">As the passionate founder of <span className="text-fuchsia-300">Black Compass Digital</span> and its lead developer, I specialize in creating engaging websites and driving brand growth, helping them reach millions with creativity and meticulousness.
+</p>
                     <div className="flex flex-row overflow-auto shrink-0 grow-0 h-max">
                       <CodeRow gradientStyle={gradientStyle}/>
                       <CodeBlock gradientStyle={gradientStyle}/>
